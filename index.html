@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="title">Employee Satisfaction Survey</h1>
+    
+    
+    
+    <form id="survey-form">
+        <p id="description">TAlk To Us 😊
+        </p>
+      
+      <label id="name-label" >
+        Enter Name 
+          <input required id="name" placeholder="Name" />
+        </label>
+      
+        <label id="Email-label" >
+          Email 
+      <input required id="email" placeholder="mail@email.com" type="email"/>
+         </label>
+      
+           <label id="number-label" >
+             Number
+      <input  required id="number" placeholder="000-000-0000" type="number">
+             </label>
+      <div>
+        <br/>
+     <select id="dropdown">
+     <option disabled selected>--select--</option>
+     <option >female</option>
+              <option>male</option>
+                     <option>other</option>
+        </select>
+      </div>
+<div>
+  <br/>
+    <input type="radio" name="name" value="satified">
+<label for="satisfied">Satified</label><br>
+<input type="radio" name="name" value="dissatisfied">
+<label for="dissatisfied">Dissatisfied</label><br>
+<input type="radio" name="name" value="neutral">
+<label for="neutral">Neutral</label>
+      </div>
+      
+      <div>
+        <p>Do you feel valued at work?</p>
+        <input type="checkbox" name="name" value="YES">
+<label for="YES">Yes</label><br>
+<input type="checkbox" name="name" value="NO">
+<label for="NO">No</label><br>
+</div>
+      
+      <div>
+        
+        <p> If no,please explain</p>
+        <textarea  placeholder="Type here"></textarea>    
+           </div>
+      
+      <p>Does your job cause you stress or anxiety?</p>
+      <input type="radio" name="name" value="YES">
+<label for="YES">Yes</label><br>
+<input type="radio" name="name" value="NO">
+<label for="NO">No</label>
+      <P>If Yes,Please Explain</p>
+      <textarea  placeholder="Type here"></textarea>
+      
+      <p>Are sufficient efforts being made to solicit colleague opinions and feedback?</p>
+      <input type="radio" name="name" value="YES">
+<label for="YES">Yes</label><br>
+<input type="radio" name="name" value="NO">
+      <label for="NO">No</label>
+       <p>If Yes, Please Explain</p>
+       <textarea  placeholder="Type here"></textarea> 
+      
+      <p>Please Provide Any Additional Feedback</p>
+      <textarea  placeholder="Type here"></textarea> 
+      
+      <br/>
+       <button  id="submit">submit</button>
+      </form>   
+
+
+</body>
+</html>
